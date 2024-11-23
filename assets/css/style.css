@@ -1,0 +1,58 @@
+/* Hero */
+.hero {
+  background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+}
+
+/* Mega Menu */
+.mega-menu {
+  width: 800px; 
+  left: 50%; 
+  transform: translateX(-50%);
+  top: 100%; 
+  background: #fff; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1050;
+  border-radius: 8px;
+  position: absolute;
+}
+
+/* Align */
+.mega-menu h6 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mega-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mega-menu ul li {
+  margin-bottom: 5px;
+}
+
+.mega-menu ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.mega-menu ul li a:hover {
+  color: #007bff;
+}
+
+/* Mobile Design */
+@media (max-width: 991.98px) {
+  .mega-menu {
+    width: 100%;
+    position: static;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .mega-menu .d-flex {
+    flex-direction: column;
+  }
+}
